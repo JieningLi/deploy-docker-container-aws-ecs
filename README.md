@@ -1,6 +1,6 @@
-# Deploy Docker container on AWS ECR
+# Deploy Docker container on AWS ECS using AWS ECR as container registry
 
-This repository demonstrates how to deploy your own Docker container to AWS ECR.
+This repository demonstrates how to deploy your own Docker container to AWS ECS.
 
 ## Prerequisite
 
@@ -58,4 +58,4 @@ Or fully authenticate: `aws ecr get-login --no-include-email --region us-east-1 
 
 3. Click on the task, you will get the public Ip for your running service
 
-4. Go to your publicIp:8080 to see you running service.
+4. Go to your publicIp:8080 to see you running service.s
