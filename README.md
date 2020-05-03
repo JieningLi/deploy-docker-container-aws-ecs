@@ -13,7 +13,9 @@ You can use Docker hub as your resistry also.
 
 1. Create a repository on AWS ECR
 
-`aws ecr create-repository --repository-name docker-demo`
+```bash
+aws ecr create-repository --repository-name docker-demo
+```
 
 2. Login to AWS ECR
 
