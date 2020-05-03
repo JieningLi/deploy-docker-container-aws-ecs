@@ -1,6 +1,7 @@
-## Deploy Docker container on AWS ECS using AWS ECR as container registry
+# Deploy Docker container on AWS ECS using AWS ECR
 
-This repository demonstrates how to deploy your own Docker container to AWS ECS.
+This repository demonstrates how to deploy your own Docker container to AWS ECS by using AWS ECR as container registry.
+You can use Docker hub for your resistry also.
 
 ## Prerequisite
 
