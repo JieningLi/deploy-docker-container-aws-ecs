@@ -71,4 +71,4 @@ docker push aws_account_id.dkr.ecr.region.amazonaws.com/docker-demo
 
 3. Click on the task, you will get the public Ip for your running service
 
-4. Go to your publicIp:8080 to see you running service.s
+4. Go to your publicIp:8080 to see you running services.
