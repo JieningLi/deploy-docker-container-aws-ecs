@@ -1,8 +1,8 @@
-# Deploy-Docker-Container-on-AWS
+# Deploy Docker container on AWS ECR
 
-Deploy your own docker container to AWS
+This repository demonstrates how to deploy your own Docker container to AWS ECR.
 
-## Prerequisite 
+## Prerequisite
 
 -[Install Docker](https://docs.docker.com/install/)
 
@@ -12,7 +12,7 @@ Deploy your own docker container to AWS
 
 1. Create a repository on AWS ECR
 
-Command:  aws ecr create-repository --repository-name docker-demo
+`aws ecr create-repository --repository-name docker-demo`
 
 2. Login to AWS ECR
 
@@ -46,21 +46,16 @@ Command: docker push aws_account_id.dkr.ecr.region.amazonaws.com/docker-demo
 
 1. Name your container
 
-2. Link your Image URI 
+2. Link your Image URI
 
 3. Port mapping set to your docker port (8080 for me)
 
 ## Step 5: Run Task under Cluster
 
-1. Click Run New Task under Tasks tab in Cluster 
+1. Click Run New Task under Tasks tab in Cluster
 
 2. Submit the details by clicking on Run
 
 3. Click on the task, you will get the public Ip for your running service
 
 4. Go to your publicIp:8080 to see you running service.
-
-
-
-
-
