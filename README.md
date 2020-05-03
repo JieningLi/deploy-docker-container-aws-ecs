@@ -19,17 +19,27 @@ aws ecr create-repository --repository-name docker-demo
 
 2. Login to AWS ECR
 
-`aws ecr get-login --no-include-email --region us-east-1`
+```bash
+aws ecr get-login --no-include-email --region us-east-1
+```
 
-Or fully authenticate: `aws ecr get-login --no-include-email --region us-east-1 | sh`
+Or fully authenticate:
+
+```bash
+aws ecr get-login --no-include-email --region us-east-1 | sh
+```
 
 3. Tag your image with the AWS ECR registry
 
-`docker tag dockerdemo aws_account_id.dkr.ecr.region.amazonaws.com/docker-demo`
+```bash
+docker tag dockerdemo aws_account_id.dkr.ecr.region.amazonaws.com/docker-demo
+```
 
 4. Push your image to AWS ECR
 
-`docker push aws_account_id.dkr.ecr.region.amazonaws.com/docker-demo`
+```bash
+docker push aws_account_id.dkr.ecr.region.amazonaws.com/docker-demo
+```
 
 ## Step 2: Create a ECS Cluster
 
